@@ -1,0 +1,25 @@
+{
+  "name": "INCAR 대시보드",
+  "short_name": "INCAR",
+  "description": "GA 소득/환수 통합 대시보드",
+  "start_url": "/income-dashboard-mobile.v7/",
+  "scope": "/income-dashboard-mobile.v7/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#030b1a",
+  "theme_color": "#030b1a",
+  "icons": [
+    {
+      "src": "incar-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "incar-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
