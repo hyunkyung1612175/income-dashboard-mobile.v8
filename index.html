@@ -734,7 +734,7 @@ code{background:rgba(255,255,255,0.07);padding:1px 6px;border-radius:4px;font-fa
 .onb-role-btn:hover,.onb-role-btn.selected{border-color:rgba(77,142,255,0.5);background:rgba(77,142,255,0.1);}
 .onb-role-ico{font-size:24px;margin-bottom:6px;}
 .onb-role-name{font-weight:700;margin-bottom:3px;}
-.onb-role-desc-sm{font-size:11px;color:var(--t3);}
+.onb-role-desc-sm{font-size:11px;color:#fff;}
 .onb-start-btn{width:100%;padding:13px;background:linear-gradient(135deg,#2563eb,#38d9f5);
   border:none;border-radius:var(--r);color:#fff;font-size:14px;font-weight:700;
   cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:opacity .2s;}
@@ -5139,12 +5139,12 @@ function updateOnboardProgress() {
       <div class="onb-role-btn" id="onb-role-admin" onclick="onbSelectRole('admin')">
         <div class="onb-role-ico">🗄</div>
         <div class="onb-role-name">관리자</div>
-        <div class="onb-role-desc-sm">DB 업로드 · 사용자 관리</div>
+        <div class="onb-role-desc-sm">DB 업로드 ·  소득/환수 분석</div>
       </div>
       <div class="onb-role-btn" id="onb-role-agent" onclick="onbSelectRole('agent')">
         <div class="onb-role-ico">📊</div>
         <div class="onb-role-name">설계사</div>
-        <div class="onb-role-desc-sm">소득 계산 · 환수 분석</div>
+        <div class="onb-role-desc-sm">예상 소득/환수 계산</div>
       </div>
     </div>
     <button class="onb-start-btn" onclick="closeOnboardingModal()">시작하기 →</button>
